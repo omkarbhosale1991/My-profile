@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration</title>
+          
+    </head>
+    <body>
+        <h2>Student Registration</h2>
+         <fieldset>
+            <legend>
+                <span>
+                   <h1>Student Registration</h1> 
+                </span>
+            </legend>
+        
+            <!-- <form>
+                
+               <label>First Name</label>
+                <<input type="text"><br>
+                <label>Last Name</label>
+                <input type="text"><br>
+                <label>age</label>
+                <input type="number"><br>
+            </form> --> 
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label>First Name</label></td>
+                        <td> <input type="text" maxlength="10" required autofocus placeholder="First name only 10 char"></td>
+                        <!-- autofocus is use for default select box 
+                        placeholder is use for low opacity instaction in box -->
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><label>Last Name</label></td>
+                        <td><input type="text" maxlength="10" required placeholder="Last name only 10 char"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><label>age</label> </td>
+                        <td><input type="number"required max="100"></td>
+
+                    </tr>
+                    <br>
+                     <tr>
+                        <td><label>Email ID</label></td>
+                        <td><input type ="email"></td>
+                        
+                     </tr>
+                     <br>
+
+                     <tr>
+                        <td><label>Password</label></td>
+                        <td><input type ="password"></td>
+                        
+                     </tr>
+                     <tr>
+                        <td><label>Mobile NO.</label></td>
+                        <td><input type="number" max="10"></td>
+                     </tr>
+                     <tr>
+                        <td>
+                            <label>DOB</label>
+                        </td>
+                        <td>
+                            <input type="date" required >            
+                            <!-- required for compusary filling-->
+                        </td>
+                    </tr>
+                      <br>
+                    <!-- Dropdown -->
+                    <tr>
+                        <td><label>country</label></td>
+                        <td><input type="text" value="India" readonly></td>
+                     </tr>
+                    <tr>
+                        <td>
+                            <label>Select degree</label>
+                        </td>
+                        <td>
+                            <select>
+                               <option>
+                                 BE
+                               </option>
+                               <option>
+                                Diploma
+                               </option>
+                           </select>
+                       </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Select Gender</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="Gender"><label>male</label>
+                            <input type="radio" name="Gender"><label>Female</label>
+                            <input type="radio" name="Gender"><label>Other</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Current Adress</label>
+                        </td>
+                        <td>
+                         <textarea rows="6" cols="40"> 
+                         </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <label> Select you hobby </label>
+                         </td>
+                         <td>
+                              <input type="checkbox"><label> Reading </label>
+                             <input type="checkbox"> <label> Watching Motivation Videos </label>
+                             <input type="checkbox"> <label> Dancing </label>
+                         </td>
+                        </tr>
+                        <tr>
+                                <td>
+                                 <label> Upload Profile Photo </label>
+                                </td>
+                                <td>
+                                <input type="file">
+                                </td>
+                         </tr>
+                        
+                         <tr>
+                                        <td> <label>Graduation Mark sheets</label> </td>
+                                        <td> <input type="file" multiple> </td>
+                         </tr>
+
+                        <tr>
+                                        <td>
+                                             <button type="submit"> Submit </button>
+                                        </td>
+
+                                        <td>
+                                                 <button type="reset"> Reset </button>
+                                        </td>
+                         </tr>
+                </tbody>
+
+            </table>
+    
+    </fieldset>
+    </body>
+</html>
+<!-- please fill in this fild can not show 
+     can't reset -->
